@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Customizing carousel buttons */
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    bottom: 10px !important;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: rgb(255, 255, 255) !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width:768px) {
+    .slick-arrow {
+        display: block !important;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-family: 'slick';
+        font-size: 25px !important;
+        line-height: 1;
+        opacity: 1 !important;
+        color: white !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .slick-next {
+        display: block;
+        right: 0 !important;
+    }
+
+    .slick-prev {
+        left: 0 !important;
+        z-index: 10;
+    }
+
+    .slick-next,
+    .slick-prev {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+
+}
