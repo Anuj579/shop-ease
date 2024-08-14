@@ -5,8 +5,8 @@ function TrendingProducts() {
   const products = [
     { image: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Macbook Pro', price: '1,15,990' },
     { image: 'https://images.pexels.com/photos/844923/pexels-photo-844923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Headphones', price: '1,699' },
-    { image: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Product 3', price: '1,15,990' },
-    { image: 'https://images.pexels.com/photos/844923/pexels-photo-844923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Product 4', price: '1,699' },
+    { image: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Macbook Pro', price: '1,15,990' },
+    { image: 'https://images.pexels.com/photos/844923/pexels-photo-844923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', title: 'Headphones', price: '1,699' },
 
   ];
   return (

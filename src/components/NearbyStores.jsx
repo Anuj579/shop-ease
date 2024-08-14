@@ -26,7 +26,7 @@ const NearbyStores = () => {
   return (
     <div className="p-3 md:p-5 container mx-auto bg-white">
       <h2 className="text-2xl font-semibold mb-6">Nearby Stores</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {stores.map((store, index) => (
           <StoreCard key={index} {...store} />
         ))}

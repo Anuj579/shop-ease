@@ -1,7 +1,6 @@
 import React from 'react'
 import CategoryCard from './CategoryCard'
 import electronics1 from '../assets/electronics1.webp'
-import electronics2 from '../assets/electronics2.webp'
 import stationery from '../assets/stationery.webp'
 import toy1 from '../assets/toys1.webp'
 import toy2 from '../assets/toys2.webp'
@@ -24,9 +23,9 @@ function Category() {
         </div>
         <div className='flex flex-col justify-center md:flex-row flex-wrap gap-6'>
           <CategoryCard image={electronics1} title="Wireless Earbuds" price="799" />
-          <CategoryCard image={electronics2} title="Premium Quality Watch" price="699" />
-          <CategoryCard image={electronics1} title="Wireless Earbuds" price="799" />
-          <CategoryCard image={electronics2} title="Premium Quality Watch" price="699" />
+          <CategoryCard image='https://images.unsplash.com/photo-1698729617018-7475086abd54?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' title="Smart Watch" price="1,399" />
+          <CategoryCard image='https://images.pexels.com/photos/844923/pexels-photo-844923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' title="Headphones" price="1,699" />
+          <CategoryCard image='https://images.unsplash.com/photo-1672211775632-bcb4b68eb2bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' title="Mechanical Keyboard" price="1,999" />
         </div>
       </section>
 
@@ -42,9 +41,9 @@ function Category() {
         </div>
         <div className='flex flex-col justify-center md:flex-row flex-wrap gap-6'>
           <CategoryCard image={stationery} title="Pencil Colors" price="199" />
-          <CategoryCard image={stationery} title="Pencil Colors" price="199" />
-          <CategoryCard image={stationery} title="Pencil Colors" price="199" />
-          <CategoryCard image={stationery} title="Pencil Colors" price="199" />
+          <CategoryCard image='https://images.unsplash.com/photo-1660611957471-4571e715aac2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' title="Sticky Notes" price="159" />
+          <CategoryCard image='https://images.unsplash.com/photo-1612367980327-7454a7276aa7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' title="Notebook" price="119" />
+          <CategoryCard image='https://images.unsplash.com/photo-1661732017125-f425c3e86467?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' title="Creative Essentials Kit" price="499" />
         </div>
       </section>
 
@@ -78,9 +77,9 @@ function Category() {
         </div>
         <div className='flex flex-col justify-center md:flex-row flex-wrap gap-6'>
           <CategoryCard image={kitchen} title="Tea Cups" price="299" />
+          <CategoryCard image='https://images.unsplash.com/photo-1715690999086-4981aaaf4a8d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' title="Plates & Spoons" price="799" />
           <CategoryCard image={kitchen} title="Tea Cups" price="299" />
-          <CategoryCard image={kitchen} title="Tea Cups" price="299" />
-          <CategoryCard image={kitchen} title="Tea Cups" price="299" />
+          <CategoryCard image='https://images.unsplash.com/photo-1715690999086-4981aaaf4a8d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' title="Plates & Spoons" price="799" />
         </div>
       </section>
 

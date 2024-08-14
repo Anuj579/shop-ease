@@ -26,11 +26,11 @@ function CategoryCard({ image, title, price }) {
 
             {/* Card for larger screens */}
             <div className="card bg-base-100 w-80 shadow-xl hidden md:block">
-                <figure className='h-52 '>
+                <figure className=' '>
                     <img
                         src={image}
                         alt="card-img"
-                        className='hover:scale-110 transition-all duration-300' />
+                        className='object-cover h-44 md:h-48 w-full hover:scale-110 transition-all duration-300' />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
